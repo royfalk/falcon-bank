@@ -8,12 +8,41 @@
 import Foundation
 import CoreLocation
 
+let creditCardProviders = ["Visa", "MasterCard", "American Express", "Diners Club", "Discover"]
+let monthlyPayments = ["Water Bill", "Electricity Bill", "Municipal Tax", "Cable Provider Bill",
+    "Mobile Plan", "Internet Plan"]
+let randomPayments = ["Venmo", "Bit", "Paybox", "Pango", "Cellopark", "ATM withdrawal"]
+
+func generateCreditCards() {
+    for _ in 0...Int.random(in: 3...6) {
+        mockCreditCards.append(CreditCard())
+    }
+}
+
+struct CreditCard: Identifiable {
+    var id = UUID()
+    var provider: String
+    var endsWith: String
+    var CCV2: String
+    var pin: String
+    
+    init() {
+        provider = creditCardProviders[Int.random(in: 0...4)]
+        endsWith = String(format: "%04d", Int.random(in: 0...9999))
+        CCV2 = String(format: "%03d", Int.random(in: 0...999))
+        pin = String(format: "%04d", Int.random(in: 0...9999))
+    }
+}
+
 struct Transaction: Identifiable {
     var id = UUID()
     var date: Date
     var description: String
     var value: Float
 }
+
+var mockCreditCards : [CreditCard] = []
+    
 
 
 let mockDate = [
