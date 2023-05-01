@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TransactionsView: View {
     var transactions: [Transaction] = []
     var body: some View {
         NavigationView {
@@ -31,7 +31,7 @@ struct ContentView: View {
 struct TransactionView: View {
     var transaction: Transaction
     var body: some View {
-        NavigationLink(destination: TransactionDetail(transaction: transaction)) {
+        NavigationLink(destination: TransactionDetailView(transaction: transaction)) {
             HStack {
                 Image(systemName: "photo")
                 VStack(alignment: .leading) {
@@ -53,7 +53,7 @@ struct TransactionView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(transactions: mockDate)
+        TransactionsView(transactions: mockDate)
     }
 }
 

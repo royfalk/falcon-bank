@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TransactionDetail: View {
+struct TransactionDetailView: View {
     @State private var zoomed: Bool = false
     var transaction: Transaction
     var body: some View {
@@ -44,7 +44,7 @@ struct TransactionDetail: View {
 struct TransactionDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            TransactionDetail(transaction: mockDate[0])
+            TransactionDetailView(transaction: mockDate[0])
         }
     }
 }

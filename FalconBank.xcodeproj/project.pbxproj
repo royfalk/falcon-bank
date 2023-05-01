@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4292D72E29F941280014530F /* FalconBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D72D29F941280014530F /* FalconBankApp.swift */; };
-		4292D73029F941280014530F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D72F29F941280014530F /* ContentView.swift */; };
+		4292D73029F941280014530F /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D72F29F941280014530F /* TransactionsView.swift */; };
 		4292D73229F9412A0014530F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4292D73129F9412A0014530F /* Assets.xcassets */; };
 		4292D73629F9412A0014530F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4292D73529F9412A0014530F /* Preview Assets.xcassets */; };
 		4292D74029F9412A0014530F /* FalconBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D73F29F9412A0014530F /* FalconBankTests.swift */; };
 		4292D74A29F9412A0014530F /* FalconBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D74929F9412A0014530F /* FalconBankUITests.swift */; };
 		4292D74C29F9412A0014530F /* FalconBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */; };
 		4292D75929FA365A0014530F /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75829FA365A0014530F /* Mock.swift */; };
-		4292D75B29FA469E0014530F /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75A29FA469E0014530F /* TransactionDetail.swift */; };
+		4292D75B29FA469E0014530F /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75A29FA469E0014530F /* TransactionDetailView.swift */; };
 		4292D75D29FAD39A0014530F /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75C29FAD39A0014530F /* AmountView.swift */; };
 		4292D75F29FE4B760014530F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75E29FE4B760014530F /* LoginView.swift */; };
 		4292D76129FE5C310014530F /* BranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D76029FE5C310014530F /* BranchView.swift */; };
@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		4292D72A29F941280014530F /* FalconBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalconBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4292D72D29F941280014530F /* FalconBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankApp.swift; sourceTree = "<group>"; };
-		4292D72F29F941280014530F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4292D72F29F941280014530F /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		4292D73129F9412A0014530F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4292D73329F9412A0014530F /* FalconBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FalconBank.entitlements; sourceTree = "<group>"; };
 		4292D73529F9412A0014530F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		4292D74929F9412A0014530F /* FalconBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankUITests.swift; sourceTree = "<group>"; };
 		4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4292D75829FA365A0014530F /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
-		4292D75A29FA469E0014530F /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		4292D75A29FA469E0014530F /* TransactionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailView.swift; sourceTree = "<group>"; };
 		4292D75C29FAD39A0014530F /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		4292D75E29FE4B760014530F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4292D76029FE5C310014530F /* BranchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchView.swift; sourceTree = "<group>"; };
@@ -105,16 +105,12 @@
 		4292D72C29F941280014530F /* FalconBank */ = {
 			isa = PBXGroup;
 			children = (
+				4292D76229FF877F0014530F /* Views */,
 				4292D72D29F941280014530F /* FalconBankApp.swift */,
-				4292D72F29F941280014530F /* ContentView.swift */,
-				4292D75C29FAD39A0014530F /* AmountView.swift */,
 				4292D73129F9412A0014530F /* Assets.xcassets */,
 				4292D73329F9412A0014530F /* FalconBank.entitlements */,
 				4292D73429F9412A0014530F /* Preview Content */,
 				4292D75829FA365A0014530F /* Mock.swift */,
-				4292D75A29FA469E0014530F /* TransactionDetail.swift */,
-				4292D75E29FE4B760014530F /* LoginView.swift */,
-				4292D76029FE5C310014530F /* BranchView.swift */,
 			);
 			path = FalconBank;
 			sourceTree = "<group>";
@@ -142,6 +138,18 @@
 				4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */,
 			);
 			path = FalconBankUITests;
+			sourceTree = "<group>";
+		};
+		4292D76229FF877F0014530F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4292D75C29FAD39A0014530F /* AmountView.swift */,
+				4292D76029FE5C310014530F /* BranchView.swift */,
+				4292D75E29FE4B760014530F /* LoginView.swift */,
+				4292D75A29FA469E0014530F /* TransactionDetailView.swift */,
+				4292D72F29F941280014530F /* TransactionsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,10 +285,10 @@
 				4292D75F29FE4B760014530F /* LoginView.swift in Sources */,
 				4292D76129FE5C310014530F /* BranchView.swift in Sources */,
 				4292D75D29FAD39A0014530F /* AmountView.swift in Sources */,
-				4292D73029F941280014530F /* ContentView.swift in Sources */,
+				4292D73029F941280014530F /* TransactionsView.swift in Sources */,
 				4292D72E29F941280014530F /* FalconBankApp.swift in Sources */,
 				4292D75929FA365A0014530F /* Mock.swift in Sources */,
-				4292D75B29FA469E0014530F /* TransactionDetail.swift in Sources */,
+				4292D75B29FA469E0014530F /* TransactionDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
