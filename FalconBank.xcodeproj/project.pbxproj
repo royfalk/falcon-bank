@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4292D72E29F941280014530F /* FalconBankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D72D29F941280014530F /* FalconBankApp.swift */; };
+		4292D73029F941280014530F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D72F29F941280014530F /* ContentView.swift */; };
+		4292D73229F9412A0014530F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4292D73129F9412A0014530F /* Assets.xcassets */; };
+		4292D73629F9412A0014530F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4292D73529F9412A0014530F /* Preview Assets.xcassets */; };
+		4292D74029F9412A0014530F /* FalconBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D73F29F9412A0014530F /* FalconBankTests.swift */; };
+		4292D74A29F9412A0014530F /* FalconBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D74929F9412A0014530F /* FalconBankUITests.swift */; };
+		4292D74C29F9412A0014530F /* FalconBankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */; };
+		4292D75929FA365A0014530F /* Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75829FA365A0014530F /* Mock.swift */; };
+		4292D75B29FA469E0014530F /* TransactionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75A29FA469E0014530F /* TransactionDetail.swift */; };
+		4292D75D29FAD39A0014530F /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75C29FAD39A0014530F /* AmountView.swift */; };
+		4292D75F29FE4B760014530F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75E29FE4B760014530F /* LoginView.swift */; };
+		4292D76129FE5C310014530F /* BranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D76029FE5C310014530F /* BranchView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4292D73C29F9412A0014530F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4292D72229F941280014530F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4292D72929F941280014530F;
+			remoteInfo = FalconBank;
+		};
+		4292D74629F9412A0014530F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4292D72229F941280014530F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4292D72929F941280014530F;
+			remoteInfo = FalconBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4292D72A29F941280014530F /* FalconBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FalconBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4292D72D29F941280014530F /* FalconBankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankApp.swift; sourceTree = "<group>"; };
+		4292D72F29F941280014530F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4292D73129F9412A0014530F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4292D73329F9412A0014530F /* FalconBank.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FalconBank.entitlements; sourceTree = "<group>"; };
+		4292D73529F9412A0014530F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4292D73B29F9412A0014530F /* FalconBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4292D73F29F9412A0014530F /* FalconBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankTests.swift; sourceTree = "<group>"; };
+		4292D74529F9412A0014530F /* FalconBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4292D74929F9412A0014530F /* FalconBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankUITests.swift; sourceTree = "<group>"; };
+		4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconBankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4292D75829FA365A0014530F /* Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mock.swift; sourceTree = "<group>"; };
+		4292D75A29FA469E0014530F /* TransactionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetail.swift; sourceTree = "<group>"; };
+		4292D75C29FAD39A0014530F /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
+		4292D75E29FE4B760014530F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4292D76029FE5C310014530F /* BranchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4292D72729F941280014530F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D73829F9412A0014530F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D74229F9412A0014530F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4292D72129F941280014530F = {
+			isa = PBXGroup;
+			children = (
+				4292D72C29F941280014530F /* FalconBank */,
+				4292D73E29F9412A0014530F /* FalconBankTests */,
+				4292D74829F9412A0014530F /* FalconBankUITests */,
+				4292D72B29F941280014530F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4292D72B29F941280014530F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4292D72A29F941280014530F /* FalconBank.app */,
+				4292D73B29F9412A0014530F /* FalconBankTests.xctest */,
+				4292D74529F9412A0014530F /* FalconBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4292D72C29F941280014530F /* FalconBank */ = {
+			isa = PBXGroup;
+			children = (
+				4292D72D29F941280014530F /* FalconBankApp.swift */,
+				4292D72F29F941280014530F /* ContentView.swift */,
+				4292D75C29FAD39A0014530F /* AmountView.swift */,
+				4292D73129F9412A0014530F /* Assets.xcassets */,
+				4292D73329F9412A0014530F /* FalconBank.entitlements */,
+				4292D73429F9412A0014530F /* Preview Content */,
+				4292D75829FA365A0014530F /* Mock.swift */,
+				4292D75A29FA469E0014530F /* TransactionDetail.swift */,
+				4292D75E29FE4B760014530F /* LoginView.swift */,
+				4292D76029FE5C310014530F /* BranchView.swift */,
+			);
+			path = FalconBank;
+			sourceTree = "<group>";
+		};
+		4292D73429F9412A0014530F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4292D73529F9412A0014530F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4292D73E29F9412A0014530F /* FalconBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				4292D73F29F9412A0014530F /* FalconBankTests.swift */,
+			);
+			path = FalconBankTests;
+			sourceTree = "<group>";
+		};
+		4292D74829F9412A0014530F /* FalconBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4292D74929F9412A0014530F /* FalconBankUITests.swift */,
+				4292D74B29F9412A0014530F /* FalconBankUITestsLaunchTests.swift */,
+			);
+			path = FalconBankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4292D72929F941280014530F /* FalconBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4292D74F29F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBank" */;
+			buildPhases = (
+				4292D72629F941280014530F /* Sources */,
+				4292D72729F941280014530F /* Frameworks */,
+				4292D72829F941280014530F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FalconBank;
+			productName = FalconBank;
+			productReference = 4292D72A29F941280014530F /* FalconBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4292D73A29F9412A0014530F /* FalconBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4292D75229F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBankTests" */;
+			buildPhases = (
+				4292D73729F9412A0014530F /* Sources */,
+				4292D73829F9412A0014530F /* Frameworks */,
+				4292D73929F9412A0014530F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4292D73D29F9412A0014530F /* PBXTargetDependency */,
+			);
+			name = FalconBankTests;
+			productName = FalconBankTests;
+			productReference = 4292D73B29F9412A0014530F /* FalconBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4292D74429F9412A0014530F /* FalconBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4292D75529F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBankUITests" */;
+			buildPhases = (
+				4292D74129F9412A0014530F /* Sources */,
+				4292D74229F9412A0014530F /* Frameworks */,
+				4292D74329F9412A0014530F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4292D74729F9412A0014530F /* PBXTargetDependency */,
+			);
+			name = FalconBankUITests;
+			productName = FalconBankUITests;
+			productReference = 4292D74529F9412A0014530F /* FalconBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4292D72229F941280014530F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4292D72929F941280014530F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4292D73A29F9412A0014530F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4292D72929F941280014530F;
+					};
+					4292D74429F9412A0014530F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4292D72929F941280014530F;
+					};
+				};
+			};
+			buildConfigurationList = 4292D72529F941280014530F /* Build configuration list for PBXProject "FalconBank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4292D72129F941280014530F;
+			productRefGroup = 4292D72B29F941280014530F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4292D72929F941280014530F /* FalconBank */,
+				4292D73A29F9412A0014530F /* FalconBankTests */,
+				4292D74429F9412A0014530F /* FalconBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4292D72829F941280014530F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4292D73629F9412A0014530F /* Preview Assets.xcassets in Resources */,
+				4292D73229F9412A0014530F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D73929F9412A0014530F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D74329F9412A0014530F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4292D72629F941280014530F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4292D75F29FE4B760014530F /* LoginView.swift in Sources */,
+				4292D76129FE5C310014530F /* BranchView.swift in Sources */,
+				4292D75D29FAD39A0014530F /* AmountView.swift in Sources */,
+				4292D73029F941280014530F /* ContentView.swift in Sources */,
+				4292D72E29F941280014530F /* FalconBankApp.swift in Sources */,
+				4292D75929FA365A0014530F /* Mock.swift in Sources */,
+				4292D75B29FA469E0014530F /* TransactionDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D73729F9412A0014530F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4292D74029F9412A0014530F /* FalconBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4292D74129F9412A0014530F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4292D74A29F9412A0014530F /* FalconBankUITests.swift in Sources */,
+				4292D74C29F9412A0014530F /* FalconBankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4292D73D29F9412A0014530F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4292D72929F941280014530F /* FalconBank */;
+			targetProxy = 4292D73C29F9412A0014530F /* PBXContainerItemProxy */;
+		};
+		4292D74729F9412A0014530F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4292D72929F941280014530F /* FalconBank */;
+			targetProxy = 4292D74629F9412A0014530F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4292D74D29F9412A0014530F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4292D74E29F9412A0014530F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4292D75029F9412A0014530F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FalconBank/FalconBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalconBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4292D75129F9412A0014530F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FalconBank/FalconBank.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FalconBank/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4292D75329F9412A0014530F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalconBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FalconBank";
+			};
+			name = Debug;
+		};
+		4292D75429F9412A0014530F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FalconBank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FalconBank";
+			};
+			name = Release;
+		};
+		4292D75629F9412A0014530F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalconBank;
+			};
+			name = Debug;
+		};
+		4292D75729F9412A0014530F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = il.co.falk.FalconBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FalconBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4292D72529F941280014530F /* Build configuration list for PBXProject "FalconBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4292D74D29F9412A0014530F /* Debug */,
+				4292D74E29F9412A0014530F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4292D74F29F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4292D75029F9412A0014530F /* Debug */,
+				4292D75129F9412A0014530F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4292D75229F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4292D75329F9412A0014530F /* Debug */,
+				4292D75429F9412A0014530F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4292D75529F9412A0014530F /* Build configuration list for PBXNativeTarget "FalconBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4292D75629F9412A0014530F /* Debug */,
+				4292D75729F9412A0014530F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4292D72229F941280014530F /* Project object */;
+}
