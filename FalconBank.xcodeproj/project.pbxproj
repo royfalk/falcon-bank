@@ -19,7 +19,8 @@
 		4292D75D29FAD39A0014530F /* AmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75C29FAD39A0014530F /* AmountView.swift */; };
 		4292D75F29FE4B760014530F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D75E29FE4B760014530F /* LoginView.swift */; };
 		4292D76129FE5C310014530F /* BranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D76029FE5C310014530F /* BranchView.swift */; };
-		4292D7642A0018CB0014530F /* recoverCreditCardPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7632A0018CB0014530F /* recoverCreditCardPinView.swift */; };
+		4292D7642A0018CB0014530F /* RecoverCreditCardPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */; };
+		4292D7662A00C0FD0014530F /* TimedPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7652A00C0FD0014530F /* TimedPinView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,8 @@
 		4292D75C29FAD39A0014530F /* AmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountView.swift; sourceTree = "<group>"; };
 		4292D75E29FE4B760014530F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		4292D76029FE5C310014530F /* BranchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchView.swift; sourceTree = "<group>"; };
-		4292D7632A0018CB0014530F /* recoverCreditCardPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recoverCreditCardPinView.swift; sourceTree = "<group>"; };
+		4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverCreditCardPinView.swift; sourceTree = "<group>"; };
+		4292D7652A00C0FD0014530F /* TimedPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedPinView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +152,8 @@
 				4292D75E29FE4B760014530F /* LoginView.swift */,
 				4292D75A29FA469E0014530F /* TransactionDetailView.swift */,
 				4292D72F29F941280014530F /* TransactionsView.swift */,
-				4292D7632A0018CB0014530F /* recoverCreditCardPinView.swift */,
+				4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */,
+				4292D7652A00C0FD0014530F /* TimedPinView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,7 +294,8 @@
 				4292D73029F941280014530F /* TransactionsView.swift in Sources */,
 				4292D72E29F941280014530F /* FalconBankApp.swift in Sources */,
 				4292D75929FA365A0014530F /* MockFactory.swift in Sources */,
-				4292D7642A0018CB0014530F /* recoverCreditCardPinView.swift in Sources */,
+				4292D7662A00C0FD0014530F /* TimedPinView.swift in Sources */,
+				4292D7642A0018CB0014530F /* RecoverCreditCardPinView.swift in Sources */,
 				4292D75B29FA469E0014530F /* TransactionDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

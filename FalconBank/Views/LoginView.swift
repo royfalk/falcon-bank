@@ -36,7 +36,7 @@ struct LoginView: View {
                     Button("Quick View") {
                         
                     }
-                    NavigationLink(destination: recoverCreditCardPinView()) {
+                    NavigationLink(destination: RecoverCreditCardPinView()) {
                         Text("Recover Pin")
                     }
                     NavigationLink(destination: BranchView(branches: mockBranches)) {
