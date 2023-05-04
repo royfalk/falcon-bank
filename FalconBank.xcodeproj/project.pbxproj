@@ -21,6 +21,7 @@
 		4292D76129FE5C310014530F /* BranchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D76029FE5C310014530F /* BranchView.swift */; };
 		4292D7642A0018CB0014530F /* RecoverCreditCardPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */; };
 		4292D7662A00C0FD0014530F /* TimedPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7652A00C0FD0014530F /* TimedPinView.swift */; };
+		4292D7682A00E4880014530F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7672A00E4880014530F /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		4292D76029FE5C310014530F /* BranchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchView.swift; sourceTree = "<group>"; };
 		4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverCreditCardPinView.swift; sourceTree = "<group>"; };
 		4292D7652A00C0FD0014530F /* TimedPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedPinView.swift; sourceTree = "<group>"; };
+		4292D7672A00E4880014530F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				4292D72F29F941280014530F /* TransactionsView.swift */,
 				4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */,
 				4292D7652A00C0FD0014530F /* TimedPinView.swift */,
+				4292D7672A00E4880014530F /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				4292D75F29FE4B760014530F /* LoginView.swift in Sources */,
 				4292D76129FE5C310014530F /* BranchView.swift in Sources */,
 				4292D75D29FAD39A0014530F /* AmountView.swift in Sources */,
+				4292D7682A00E4880014530F /* HomeView.swift in Sources */,
 				4292D73029F941280014530F /* TransactionsView.swift in Sources */,
 				4292D72E29F941280014530F /* FalconBankApp.swift in Sources */,
 				4292D75929FA365A0014530F /* MockFactory.swift in Sources */,
