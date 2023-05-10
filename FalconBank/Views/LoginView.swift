@@ -26,7 +26,7 @@ struct LoginView: View {
                             print("Password changed to \(newPassword)")
                         })
                     }
-                    NavigationLink(destination: TransactionsView()) {
+                    NavigationLink(destination: TransactionsView(transactions: mockDate)) {
                         Text("Sign in").buttonStyle(.automatic)
                     }
                 }
@@ -49,7 +49,7 @@ struct LoginView: View {
             .edgesIgnoringSafeArea(.all)
             .blur(radius: 7.0)
             .opacity(0.15))
-        .onAppear(perform: generateCreditCards)
+        .onAppear(perform: generateAllMockDate)
         
     }
 }

@@ -22,6 +22,7 @@
 		4292D7642A0018CB0014530F /* RecoverCreditCardPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */; };
 		4292D7662A00C0FD0014530F /* TimedPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7652A00C0FD0014530F /* TimedPinView.swift */; };
 		4292D7682A00E4880014530F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292D7672A00E4880014530F /* HomeView.swift */; };
+		A6D783852A0A2A4C0073811D /* Transactions.txt in Resources */ = {isa = PBXBuildFile; fileRef = A6D783842A0A2A4C0073811D /* Transactions.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		4292D7632A0018CB0014530F /* RecoverCreditCardPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoverCreditCardPinView.swift; sourceTree = "<group>"; };
 		4292D7652A00C0FD0014530F /* TimedPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedPinView.swift; sourceTree = "<group>"; };
 		4292D7672A00E4880014530F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A6D783842A0A2A4C0073811D /* Transactions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Transactions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		4292D72C29F941280014530F /* FalconBank */ = {
 			isa = PBXGroup;
 			children = (
+				A6D783832A0A2A250073811D /* Assets */,
 				4292D76229FF877F0014530F /* Views */,
 				4292D72D29F941280014530F /* FalconBankApp.swift */,
 				4292D73129F9412A0014530F /* Assets.xcassets */,
@@ -159,6 +162,14 @@
 				4292D7672A00E4880014530F /* HomeView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		A6D783832A0A2A250073811D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A6D783842A0A2A4C0073811D /* Transactions.txt */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			files = (
 				4292D73629F9412A0014530F /* Preview Assets.xcassets in Resources */,
 				4292D73229F9412A0014530F /* Assets.xcassets in Resources */,
+				A6D783852A0A2A4C0073811D /* Transactions.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
